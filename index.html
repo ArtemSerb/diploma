@@ -1,0 +1,712 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://fonts.googleapis.com/css2?family=Lato:wght@400;700&family=Lora:wght@400;500;700&family=Montserrat:wght@200;400;500;600;700&family=Playfair+Display:wght@700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/npm/daterangepicker/daterangepicker.css" />
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@10/swiper-bundle.min.css"/>
+    <link rel="stylesheet" href="css/style.css">
+    <title>Frispes</title>
+</head>
+<body>
+    <div class="wraper">
+        <header class="header">
+            <div class="container cont">
+                <div class="header__logo">
+                    <a class="logo" href="#">Frispes.</a>
+                </div>
+                <div class="header__main">
+                    <nav class="header__nav">
+                        <ul class="header__list">
+                            <li class="header__item">
+                                <a class="header__nav-link" href="#">Home</a>
+                            </li>
+                            <li class="header__item">
+                                <a class="header__nav-link" href="#">Workspace</a>
+                            </li>
+                            <li class="header__item">
+                                <a class="header__nav-link" href="#">Service</a>
+                            </li>
+                            <li class="header__item">
+                                <a class="header__nav-link" href="#">Events</a>
+                            </li>
+                            <li class="header__item">
+                                <a class="header__nav-link" href="#">Reviews</a>
+                            </li>
+                            <li class="header__item">
+                                <a class="header__nav-link" href="#">Contact Us</a>
+                        </ul>
+                    </nav>
+                    <div class="header__button">
+                        <a class="btn1" href="#">Log In</a>
+                        <a class="btn2" href="#">Sign Up</a>
+                    </div>
+                </div>
+            </div>
+        </header>
+        <main class="main">
+            <section class="bron">
+                <div class="container">
+                <div class="bron__top">
+                    <div class="bron__top-left">
+                        <div class="bron__sub">
+                            <div class="bron__subtitle1">
+                                <h4 class="bron__subtitle">Introducing</h4>
+                                <img class="line" src="img/line2.svg" alt="">
+                            </div>
+                            <h2 class="bron__title">
+                                <b>Revolutionary </b>
+                                co-working space to realize your innovation
+                            </h2>
+                        </div>
+                    </div>
+                    <div class="bron__top-right">
+                        <p class="bron__text">
+                            In frispes, we spearhead new initiatives and provide mentorship to a new startup, and help grow their opportunities in key local, regional and global markets
+                        </p>
+                    </div>
+                </div>
+                <div class="bron__bottom">
+                    <div class="bron__image">
+                        <img class="bron__img" src="img/1.jpg" alt="">
+                    </div>
+                    <div class="bron__ww">
+                    <form action="#" class="bron__form">
+                        <h3 class="bron__form-title">Find your space now</h3>
+                        <ul class="bron__form-list">
+                            <li class="bron__form-item"><b class="op">Location</b> <br>
+                                <select class="bron__form-sel" id="bron">
+                                    <option class="input" value="Malang, Indonesia">Malang, Indonesia</option>
+                                    <option class="input" value="Malang, Brazil">Malang, Brazil</option>
+                                    <option class="input" value="Malang, India">Malang, India</option>
+                                    <option class="input" value="Malang, China">Malang, China</option>
+                                </select>
+                            </li>
+                            <li class="bron__form-item"><b class="op">Type</b><br>
+                                <select class="bron__form-sel" id="bron">
+                                    <option  value="Private Office">Private Office</option>
+                                    <option value="Private room">Private room</option>
+                                    <option value="Private cloack">Private cloack</option>
+                                    <option value="Private mail">Private mail</option>
+                                </select>
+                            </li>
+                            <li class="bron__form-item"><b class="op">Date</b><br>
+                                <input name="birthday" class="input" type="text" value="09/08/2020">
+                            </li>
+                        </ul>
+                        <a class="btn3 bron__btn3" href="#">FIND MY SPACE</a>
+                    </form>
+                </div>
+                </div>
+            </div>
+            </section>
+            <section class="spaces container">
+                <div class="spaces__header header-spaces">
+                    <div class="header-spaces__main">
+                        <h3 class="section-title">Our Spaces</h3>
+                        <p class="section-text">
+                            Our space is designed to give you a different experience when working with your
+                            team or personally</p>
+                    </div>
+                    <div class="spaces__nav slider-controllers">
+                        <div class="slider-controllers__arrow arrow arrow-left spaces-prev">
+                            <span class="arrow__line"></span>
+                            <svg class="arrow__body" width="29" height="27" viewBox="0 0 29 27" fill="none"
+                                xmlns="http://www.w3.org/2000/svg">
+                                <path
+                                    d="M0.448429 14.7981L9.6525 25.9884C9.94822 26.3465 10.3179 26.5255 10.6875 26.5255C11.0572 26.5255 11.4268 26.3465 11.7225 25.9884C12.3139 25.2722 12.3139 24.1532 11.7225 23.437L5.03198 15.2905H26.6191C27.4323 15.2905 28.0977 14.4848 28.0977 13.5001C28.0977 12.5153 27.4323 11.7096 26.6191 11.7096H5.03198L11.7225 3.56312C12.3139 2.84695 12.3139 1.72792 11.7225 1.01174C11.1311 0.295565 10.207 0.295565 9.61555 1.01174L0.411451 12.202C-0.143013 12.9629 -0.142998 14.1267 0.448429 14.7981Z"
+                                    \ />
+                            </svg>
+                        </div>
+                        <div class="slider-controllers__arrow arrow arrow-right spaces-next">
+                            <span class="arrow__line"></span>
+                            <svg class="arrow__body" width="29" height="27" viewBox="0 0 29 27" fill="none"
+                                xmlns="http://www.w3.org/2000/svg">
+                                <path
+                                    d="M28.2371 14.7981L19.033 25.9884C18.7373 26.3465 18.3677 26.5255 17.998 26.5255C17.6284 26.5255 17.2587 26.3465 16.963 25.9884C16.3716 25.2722 16.3716 24.1532 16.963 23.437L23.6536 15.2905H2.06646C1.25325 15.2905 0.587891 14.4848 0.587891 13.5001C0.587891 12.5153 1.25325 11.7096 2.06646 11.7096H23.6536L16.963 3.56312C16.3716 2.84695 16.3716 1.72792 16.963 1.01174C17.5545 0.295565 18.4786 0.295565 19.07 1.01174L28.2741 12.202C28.8286 12.9629 28.8285 14.1267 28.2371 14.7981Z" />
+                            </svg>
+                        </div>
+                    </div>
+                </div>
+                <div class="spaces__slider slider-spaces swiper">
+                    <div class="slider-spaces__cards swiper-wrapper">
+                        <div class="card-spaces swiper-slide">
+                            <div class="card-spaces__content main-content">
+                                <img src="img/2.jpg" alt="#" class="card-spaces__img">
+                                <h4 class="card-spaces__title">Working with team</h4>
+                            </div>
+                            <div class="card-spaces private-card">
+                                <div class="card-spaces__content private-card__content">
+                                    <h4 class="private-card__title">Private Space</h4>
+                                    <p class="card-spaces__text">Comfortable space, Full speed wifi, Free coffe Snack
+                                        and many more
+                                    </p>
+                                </div>
+                            </div>
+                            <button class="check-avaibility-btn">Check avaibility</button>
+                        </div>
+    
+                        <div class="card-spaces swiper-slide">
+                            <div class="card-spaces__content main-content">
+                                <img src="img/3.jpg" alt="#" class="card-spaces__img">
+                                <h4 class="card-spaces__title">Game zone</h4>
+                            </div>
+                            <div class="card-spaces private-card">
+                                <div class="card-spaces__content private-card__content">
+                                    <h4 class="private-card__title">Private Space</h4>
+                                    <p class="card-spaces__text">Comfortable space, Full speed wifi, Free coffe
+                                        &amp;&nbsp;Snack
+                                        and many more
+                                    </p>
+                                </div>
+                            </div>
+                            <button class="check-avaibility-btn">Check avaibility</button>
+                        </div>
+    
+                        <div class="card-spaces swiper-slide">
+                            <div class="card-spaces__content main-content">
+                                <img src="img/2.jpg" alt="#" class="card-spaces__img">
+                                <h4 class="card-spaces__title">Custom Office</h4>
+                            </div>
+                            <div class="card-spaces private-card">
+                                <div class="card-spaces__content private-card__content">
+                                    <h4 class="private-card__title">Private Space</h4>
+                                    <p class="card-spaces__text">Comfortable space, Full speed wifi, Free coffe
+                                        &amp;&nbsp;Snack
+                                        and many more
+                                    </p>
+                                </div>
+                            </div>
+                            <button class="check-avaibility-btn">Check avaibility</button>
+                        </div>
+    
+                        <div class="card-spaces swiper-slide">
+                            <div class="card-spaces__content main-content">
+                                <img src="img/3.jpg" alt="#" class="card-spaces__img">
+                                <h4 class="card-spaces__title">Chill zone</h4>
+                            </div>
+                            <div class="card-spaces private-card">
+                                <div class="card-spaces__content private-card__content">
+                                    <h4 class="private-card__title">Private Space</h4>
+                                    <p class="card-spaces__text">Comfortable space, Full speed wifi, Free coffe
+                                        &amp;&nbsp;Snack
+                                        and many more
+                                    </p>
+                                </div>
+                            </div>
+                            <button class="check-avaibility-btn">Check avaibility</button>
+                        </div>
+    
+                    </div>
+                    <div class="slider-spaces__nav">
+                        <div class="slider-spaces__progressbar swiper-pagination"></div>
+                    </div>
+                    <div class="slider-spaces__fractions">
+                        <span class="slider-spaces__current"></span>
+                        <span class="slash"> / </span>
+                        <span class="slider-spaces__all"></span>
+                    </div>
+    
+                </div>
+            </section>
+            <section class="about">
+                <div class="container">
+                    <div class="about__in">
+                        <div class="about__right">
+                            <div class="about__right-box">
+                                <div class="about__right-imges">
+                                    <img class="about__right-img" src="img/meeting-room 1.svg" alt="">
+                                    <h4 class="about__right-title">500+</h4>
+                                </div>
+                                <p class="about__right-text">Meeting rooms</p>
+                            </div>
+                            <div class="about__right-box">
+                                <div class="about__right-imges">
+                                    <img class="about__right-img" src="img/circus 1.svg" alt="">
+                                    <h4 class="about__right-title">100+</h4>
+                                </div>
+                                <p class="about__right-text">Meeting rooms</p>
+                            </div>
+                            <div class="about__right-box">
+                                <div class="about__right-imges">
+                                    <img class="about__right-img" src="img/Flag.svg" alt="">
+                                    <h4 class="about__right-title">60+</h4>
+                                </div>
+                                <p class="about__right-text">Countries</p>
+                            </div>
+                            <div class="about__right-box">
+                                <div class="about__right-imges">
+                                    <img class="about__right-img" src="img/wifi 1.svg" alt="">
+                                    <h4 class="about__right-title">500 Mbps</h4>
+                                </div>
+                                <p class="about__right-text">Internet speed</p>
+                            </div>
+                            <div class="about__right-box">
+                                <div class="about__right-imges">
+                                    <img class="about__right-img" src="img/User 24px.svg" alt="">
+                                    <h4 class="about__right-title">5K+</h4>
+                                </div>
+                                <p class="about__right-text">Startup mentors</p>
+                            </div>
+                            <div class="about__right-box">
+                                <div class="about__right-imges">
+                                    <img class="about__right-img" src="img/User 25px.svg" alt="">
+                                    <h4 class="about__right-title">200+</h4>
+                                </div>
+                                <p class="about__right-text">Communities inside</p>
+                            </div>
+                        </div>
+                        <div class="about__left">
+                            <div class="about__left-prev">
+                                <p class="about__left-prev-title">Why Frispes</p>
+                                <img class="about__left-prev-img" src="img/Rectangle 1.svg" alt="">
+                            </div>
+                            <h3 class="about__left-title">We revolutionize your workspace</h3>
+                            <p class="about__left-text">With a decade of insights and expertise, we're decided to reimagine co-working space, designed to help a new startup grow up and realize their ideas so they can give a positive impacts on many people</p>
+                        </div>
+                    </div>
+                </div>
+            </section>
+            <section class="facilities container">
+                <div class="facilities__header">
+                    <h2 class="section-intro">Our Facilities</h2>
+                    <h3 class="section-title">All facilities are designed to meet all your needs</h3>
+                </div>
+                <div class="facilities__content">
+                    <div class="facilities__nav swiper">
+                        <ul class="facilities__list swiper-wrapper">
+                            <li class="facilities__item swiper-slide">
+                                Spacious parking area
+                            </li>
+                            <li class="facilities__item swiper-slide">
+                                <span>Comfortable spaces</span>
+                            </li>
+                            <li class="facilities__item swiper-slide">
+                                <span>Cozy cafe</span>
+                            </li>
+                            <li class="facilities__item swiper-slide">
+                                <span>Child playground</span>
+                            </li>
+                            <li class="facilities__item swiper-slide">
+                                <span>Outdoor spaces</span>
+                            </li>
+                        </ul>
+                    </div>
+    
+                    <div class="facilities__slider slider-facilities swiper">
+    
+                        <div class="slider-facilities__wrapper swiper-wrapper">
+    
+                            <div class="slider-facilities__image swiper-slide">
+                                <img src="img/4.jpg" alt="Spacious parking area" class="facilities__img">
+                            </div>
+                            <div class="slider-facilities__image swiper-slide">
+                                <img src="img/4.jpg" alt="Comfortable spaces" class="facilities__img">
+                            </div>
+                            <div class="slider-facilities__image swiper-slide">
+                                <img src="img/4.jpg" alt="Cozy cafe" class="facilities__img">
+                            </div>
+                            <div class="slider-facilities__image swiper-slide">
+                                <img src="img/4.jpg" alt="Child playground" class="facilities__img">
+                            </div>
+                            <div class="slider-facilities__image swiper-slide">
+                                <img src="img/4.jpg" alt="Outdoor spaces" class="facilities__img">
+                            </div>
+                        </div>
+
+                    </div>
+                </div>
+            </section>
+            <section class="gallery container">
+                <div class="gallery__header header-gallery">
+                    <div class="header-gallery__container">
+                        <h2 class="section-intro">Frispes gallery</h2>
+                        <h3 class="section-title-gal">
+                            Immersive beautiful<br> co-working space gallery
+                        </h3>
+                        <div class="gallery__nav slider-controllers">
+                            <div class="slider-controllers__arrow arrow arrow-left gallery-prev">
+                                <span class="arrow__line"></span>
+                                <svg class="arrow__body" width="29" height="27" viewBox="0 0 29 27" fill="none"
+                                    xmlns="http://www.w3.org/2000/svg">
+                                    <path
+                                        d="M0.448429 14.7981L9.6525 25.9884C9.94822 26.3465 10.3179 26.5255 10.6875 26.5255C11.0572 26.5255 11.4268 26.3465 11.7225 25.9884C12.3139 25.2722 12.3139 24.1532 11.7225 23.437L5.03198 15.2905H26.6191C27.4323 15.2905 28.0977 14.4848 28.0977 13.5001C28.0977 12.5153 27.4323 11.7096 26.6191 11.7096H5.03198L11.7225 3.56312C12.3139 2.84695 12.3139 1.72792 11.7225 1.01174C11.1311 0.295565 10.207 0.295565 9.61555 1.01174L0.411451 12.202C-0.143013 12.9629 -0.142998 14.1267 0.448429 14.7981Z"
+                                        \ />
+                                </svg>
+                            </div>
+                            <div class="slider-controllers__arrow arrow arrow-right gallery-next">
+                                <span class="arrow__line"></span>
+                                <svg class="arrow__body" width="29" height="27" viewBox="0 0 29 27" fill="none"
+                                    xmlns="http://www.w3.org/2000/svg">
+                                    <path
+                                        d="M28.2371 14.7981L19.033 25.9884C18.7373 26.3465 18.3677 26.5255 17.998 26.5255C17.6284 26.5255 17.2587 26.3465 16.963 25.9884C16.3716 25.2722 16.3716 24.1532 16.963 23.437L23.6536 15.2905H2.06646C1.25325 15.2905 0.587891 14.4848 0.587891 13.5001C0.587891 12.5153 1.25325 11.7096 2.06646 11.7096H23.6536L16.963 3.56312C16.3716 2.84695 16.3716 1.72792 16.963 1.01174C17.5545 0.295565 18.4786 0.295565 19.07 1.01174L28.2741 12.202C28.8286 12.9629 28.8285 14.1267 28.2371 14.7981Z" />
+                                </svg>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="gallery__slider-wrapper">
+                    <div class="gallery__slider slider-gallery swiper">
+                        <div class="slider-gallery__wrapper swiper-wrapper">
+                            <div class="slider-gallery__slide swiper-slide">
+                                <div class="slider-gallery__image">
+                                    <img src="img/5.jpg" alt="">
+                                </div>
+                            </div>
+                            <div class="slider-gallery__slide swiper-slide">
+                                <div class="slider-gallery__image">
+                                    <img src="img/6.jpg" alt="">
+                                </div>
+                            </div>
+                            <div class="slider-gallery__slide swiper-slide">
+                                <div class="slider-gallery__image">
+                                    <img src="img/7.jpg" alt="">
+                                </div>
+                            </div>
+                            <div class="slider-gallery__slide swiper-slide">
+                                <div class="slider-gallery__image">
+                                    <img src="img/8.jpg" alt="">
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+            <section class="partner">
+                <div class="container">
+                    <div class="partner__in">
+                        <h2 class="partner__head">Who uses Frispes?</h2>
+                        <p class="partner__text">Big brands, small bussiness, new startuo and inividuals</p>
+                        <div class="partner__boxes">
+                            <div class="partner__box">
+                                <img class="partner__img" src="img/google.svg" alt="">
+                            </div>
+                            <div class="partner__box">
+                                <img class="partner__img" src="img/tokopediasvg.svg" alt="">
+                            </div>
+                            <div class="partner__box">
+                                <img class="partner__img" src="img/upwork.svg" alt="">
+                            </div>
+                            <div class="partner__box">
+                                <img class="partner__img" src="img/mikrosoft.svg" alt="">
+                            </div>
+                            <div class="partner__box">
+                                <img class="partner__img" src="img/shopify.svg" alt="">
+                            </div>
+                            <div class="partner__box">
+                                <img class="partner__img" src="img/stripe.svg" alt="">
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+            <section class="reviews contain" id="reviews">
+                <h2 class="section-intro">Reviews</h2>
+                <div class="reviews__header">
+                    <h3 class="section-title">What our customers are saying</h3>
+                    <div class="reviews__nav slider-controllers">
+                        <div class="slider-controllers__arrow arrow arrow-left reviews-prev">
+                            <span class="arrow__line"></span>
+                            <svg class="arrow__body" width="29" height="27" viewBox="0 0 29 27" fill="none"
+                                xmlns="http://www.w3.org/2000/svg">
+                                <path
+                                    d="M0.448429 14.7981L9.6525 25.9884C9.94822 26.3465 10.3179 26.5255 10.6875 26.5255C11.0572 26.5255 11.4268 26.3465 11.7225 25.9884C12.3139 25.2722 12.3139 24.1532 11.7225 23.437L5.03198 15.2905H26.6191C27.4323 15.2905 28.0977 14.4848 28.0977 13.5001C28.0977 12.5153 27.4323 11.7096 26.6191 11.7096H5.03198L11.7225 3.56312C12.3139 2.84695 12.3139 1.72792 11.7225 1.01174C11.1311 0.295565 10.207 0.295565 9.61555 1.01174L0.411451 12.202C-0.143013 12.9629 -0.142998 14.1267 0.448429 14.7981Z"
+                                    \ />
+                            </svg>
+                        </div>
+                        <div class="slider-controllers__arrow arrow arrow-right reviews-next">
+                            <span class="arrow__line"></span>
+                            <svg class="arrow__body" width="29" height="27" viewBox="0 0 29 27" fill="none"
+                                xmlns="http://www.w3.org/2000/svg">
+                                <path
+                                    d="M28.2371 14.7981L19.033 25.9884C18.7373 26.3465 18.3677 26.5255 17.998 26.5255C17.6284 26.5255 17.2587 26.3465 16.963 25.9884C16.3716 25.2722 16.3716 24.1532 16.963 23.437L23.6536 15.2905H2.06646C1.25325 15.2905 0.587891 14.4848 0.587891 13.5001C0.587891 12.5153 1.25325 11.7096 2.06646 11.7096H23.6536L16.963 3.56312C16.3716 2.84695 16.3716 1.72792 16.963 1.01174C17.5545 0.295565 18.4786 0.295565 19.07 1.01174L28.2741 12.202C28.8286 12.9629 28.8285 14.1267 28.2371 14.7981Z" />
+                            </svg>
+                        </div>
+                    </div>
+                </div>
+                <div class="reviews__slider-wrapper">
+                    <div class="reviews__slider slider-reviews swiper">
+                        <div class="slider-reviews__cards swiper-wrapper">
+                            <div class="slider-reviews__card card-review swiper-slide">
+                                <p class="card-review__text">
+                                    Our team has been working at frispes for almost 2 months because our office
+                                    still closed. During working at&nbsp;frispes, we&nbsp;feel a&nbsp;new experience,
+                                    we&nbsp;can feel working with a&nbsp;beautiful, modern, and comfortable space. And cozy
+                                    cafe with high-speed internet in&nbsp;there. Thank you for frispes and team.
+                                </p>
+                                <div class="card-review__author card-author">
+                                    <img src="img/Ellipse 1.jpg" alt="" class="card-author__avatar">
+                                    <div class="card-author__info">
+                                        <span class="card-author__name">Pedro Ibanez</span>
+                                        <span class="card-author__speciality">UI Designer at Google</span>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="slider-reviews__card card-review swiper-slide">
+                                <p class="card-review__text">
+                                    The high-speed internet at&nbsp;frispes was so&nbsp;amazing. I&nbsp;can get best
+                                    experience when running video call with my&nbsp;clients. Frispes has spacious and safe
+                                    parking area, that&rsquo;s what i&nbsp;need because i&nbsp;used to&nbsp;work
+                                    as&nbsp;freelancer for a&nbsp;long time.
+                                </p>
+                                <div class="card-review__author card-author">
+                                    <img src="img/Ellipse 2.jpg" alt="" class="card-author__avatar">
+                                    <div class="card-author__info">
+                                        <span class="card-author__name">Raymond Thual</span>
+                                        <span class="card-author__speciality">Professional Freelancer</span>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="slider-reviews__card card-review swiper-slide">
+                                <p class="card-review__text">
+                                    Just three words : Frispes is Awesome!
+                                </p>
+                                <div class="card-review__author card-author">
+                                    <img src="img/Ellipse 3.jpg" alt="" class="card-author__avatar">
+                                    <div class="card-author__info">
+                                        <span class="card-author__name">Yuli Berlian</span>
+                                        <span class="card-author__speciality">IOS Dev at Tokopedia</span>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="slider-reviews__nav">
+                    <div class="slider-reviews__progressbar swiper-pagination"></div>
+                </div>
+            </section>
+            <section class="questions container">
+                <h3 class="section-title">Find the answers to anything you need in our Help Center</h3>
+                <div class="questions__cards">
+                    <div class="questions__card card-question">
+                        <span class="card-question__text">How do I know if a space is available?</span>
+                        <div class="card-question__badge badge">
+                            <svg class="badge__arrow" width="16" height="10" viewBox="0 0 16 10" fill="none"
+                                xmlns="http://www.w3.org/2000/svg">
+                                <path
+                                    d="M8.00664 9.53322C7.71331 9.53322 7.44664 9.42655 7.2333 9.21321L0.566638 2.27988C0.166638 1.85321 0.166632 1.18655 0.593298 0.759884C1.01997 0.359884 1.68665 0.359885 2.11332 0.786552L8.00664 6.91989L13.9 0.786553C14.3 0.359886 14.9933 0.359884 15.42 0.759884C15.8467 1.15988 15.8466 1.85321 15.4466 2.27988L8.77998 9.21321C8.56665 9.42655 8.29998 9.53322 8.00664 9.53322Z" />
+                            </svg>
+                        </div>
+                    </div>
+                    <div class="questions__card card-question">
+                        <span class="card-question__text">How do i book a space?</span>
+                        <div class="card-question__badge badge">
+                            <svg class="badge__arrow" width="16" height="10" viewBox="0 0 16 10" fill="none"
+                                xmlns="http://www.w3.org/2000/svg">
+                                <path
+                                    d="M8.00664 9.53322C7.71331 9.53322 7.44664 9.42655 7.2333 9.21321L0.566638 2.27988C0.166638 1.85321 0.166632 1.18655 0.593298 0.759884C1.01997 0.359884 1.68665 0.359885 2.11332 0.786552L8.00664 6.91989L13.9 0.786553C14.3 0.359886 14.9933 0.359884 15.42 0.759884C15.8467 1.15988 15.8466 1.85321 15.4466 2.27988L8.77998 9.21321C8.56665 9.42655 8.29998 9.53322 8.00664 9.53322Z" />
+                            </svg>
+                        </div>
+                    </div>
+                    <div class="questions__card card-question">
+                        <span class="card-question__text">How do reviews work?</span>
+                        <div class="card-question__badge badge">
+                            <svg class="badge__arrow" width="16" height="10" viewBox="0 0 16 10" fill="none"
+                                xmlns="http://www.w3.org/2000/svg">
+                                <path
+                                    d="M8.00664 9.53322C7.71331 9.53322 7.44664 9.42655 7.2333 9.21321L0.566638 2.27988C0.166638 1.85321 0.166632 1.18655 0.593298 0.759884C1.01997 0.359884 1.68665 0.359885 2.11332 0.786552L8.00664 6.91989L13.9 0.786553C14.3 0.359886 14.9933 0.359884 15.42 0.759884C15.8467 1.15988 15.8466 1.85321 15.4466 2.27988L8.77998 9.21321C8.56665 9.42655 8.29998 9.53322 8.00664 9.53322Z" />
+                            </svg>
+                        </div>
+                    </div>
+                </div>
+                <a href="#" class="show-more-link">
+                    <span class="show-more-link__text">More questions</span>
+                    <svg class="show-more-link__arrow" width="10" height="16" viewBox="0 0 10 16" fill="none"
+                        xmlns="http://www.w3.org/2000/svg">
+                        <path
+                            d="M9.53322 7.99333C9.53322 8.28667 9.42655 8.55334 9.21321 8.76667L2.27988 15.4333C1.85321 15.8333 1.18655 15.8333 0.759884 15.4067C0.359884 14.98 0.359885 14.3133 0.786552 13.8867L6.91989 7.99333L0.786552 2.09997C0.359885 1.69997 0.359884 1.00665 0.759884 0.579985C1.15988 0.153319 1.85321 0.153358 2.27988 0.553358L9.21321 7.21999C9.42655 7.43333 9.53322 7.7 9.53322 7.99333Z" />
+                    </svg>
+                </a>
+            </section>
+            <div class="grey-background-box">
+            <section class="news container">
+				<div class="news__header">
+					<h3 class="section-title">News, events and insights for you</h3>
+					<div class="quest__lum">
+                        <a class="quest__link" href="#">See more</a>
+                        <img src="img/chevronown.png" alt="">
+                    </div>
+				</div>
+				<div class="news__cards">
+					<div class="news__card card-primary">
+						<img src="img/9.jpg" alt="" class="card-primary__img">
+						<div class="card-primary__content">
+							<h5 class="card-primary__title">
+								Google I / O 2020 news update
+							</h5>
+							<p class="card-primary__text">Out of concern for the health and safety of our
+								developers,
+								employees, and local communities&nbsp;&mdash; and in line with recent ...</p>
+							<div class="card-primary__author card-author">
+								<img src="img/Ellipse 4.jpg" alt="" class="card-author__avatar">
+								<div class="card-author__info">
+									<span class="card-author__name">Sundar Pichai</span>
+									<span class="card-author__speciality">CEO at Google</span>
+								</div>
+							</div>
+						</div>
+					</div>
+					<div class="news__card card-article">
+						<img src="img/10.jpg" alt="" class="card-article__img">
+						<div class="card-article__content">
+							<h5 class="card-article__title">Minimal workspace for inspirations</h5>
+							<span class="card-article__author">Anthony Masional</span>
+						</div>
+					</div>
+					<div class="news__card card-article">
+						<img src="img/11.jpg" alt="" class="card-article__img">
+						<div class="card-article__content">
+							<h5 class="card-article__title">Does productivity increase when working remotely ?</h5>
+							<span class="card-article__author">Frank Martin</span>
+						</div>
+					</div>
+					<div class="news__card card-article">
+						<img src="img/12.jpg" alt="" class="card-article__img">
+						<div class="card-article__content">
+							<h5 class="card-article__title">Morning routine to boost your mood</h5>
+							<span class="card-article__author">Elizabeth Swan</span>
+						</div>
+					</div>
+					<div class="news__card card-article">
+						<img src="img/13.jpg" alt="" class="card-article__img">
+						<div class="card-article__content">
+							<h5 class="card-article__title">5+ tips to find comfortable co-working space</h5>
+							<span class="card-article__author">Mykola Ilschenko</span>
+						</div>
+					</div>
+				</div>
+			</section>
+        </div>
+        <div class="blue__box">
+        <section class="recomend">
+            <div class="container">
+                <div class="recomend__in">
+                    <div class="recomend__left">
+                        <div class="recomend__box">
+                            <p class="recomend__text">Became a member</p>
+                            <img src="img/Rectangle 2.svg" alt="">
+                        </div>
+                        <h2 class="recomend__title">Ready to try different work experience now?</h2>
+                        <p class="recomend__info">Get the best working experience that you never feel before</p>
+                        <a class="btn3 bron__btn3" href="#">SIGN UP NOW</a>
+                    </div>
+                    <div class="recomend__right">
+                        <img class="recomend__imgs" src="img/Pattern.svg" alt="">
+                        <img class="recomend__img" src="img/34.png" alt="">
+                    </div>
+                </div>
+            </div>
+        </section>
+    </div>
+        </main>
+        <footer class="footer">
+            <div class="footer__container container">
+                <div class="footer__about about">
+                    <h1 class="about__title">Frispes</h1>
+                    <p class="about__text">We offer comfortable spaces, cozy cafe, high-speed internet, spacious
+                        parking area and many more for your best workspaces and meetings</p>
+                    <ul class="about__socials socials">
+                        <li class="socials__item">
+                            <a href="#" class="socials__link">
+                                <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                    <path fill-rule="evenodd" clip-rule="evenodd" d="M2 12C2 7.80863 2 5.71294 3.05041 4.26718C3.38964 3.80026 3.80026 3.38964 4.26718 3.05041C5.71294 2 7.80863 2 12 2C16.1914 2 18.2871 2 19.7328 3.05041C20.1997 3.38964 20.6104 3.80026 20.9496 4.26718C22 5.71294 22 7.80863 22 12C22 16.1914 22 18.2871 20.9496 19.7328C20.6104 20.1997 20.1997 20.6104 19.7328 20.9496C18.2871 22 16.1914 22 12 22C7.80863 22 5.71294 22 4.26718 20.9496C3.80026 20.6104 3.38964 20.1997 3.05041 19.7328C2 18.2871 2 16.1914 2 12ZM12 6.70588C9.07632 6.70588 6.70588 9.07632 6.70588 12C6.70588 14.9237 9.07632 17.2941 12 17.2941C14.9237 17.2941 17.2941 14.9237 17.2941 12C17.2941 9.07632 14.9237 6.70588 12 6.70588ZM12 15.3088C10.1762 15.3088 8.69118 13.8238 8.69118 12C8.69118 10.1749 10.1762 8.69118 12 8.69118C13.8238 8.69118 15.3088 10.1749 15.3088 12C15.3088 13.8238 13.8238 15.3088 12 15.3088ZM18.3966 6.30883C18.3966 6.69844 18.0808 7.01427 17.6912 7.01427C17.3016 7.01427 16.9857 6.69844 16.9857 6.30883C16.9857 5.91923 17.3016 5.60339 17.6912 5.60339C18.0808 5.60339 18.3966 5.91923 18.3966 6.30883Z" fill="white"/>
+                                    </svg>
+                            </a>
+                        </li>
+                        <li class="socials__item">
+                            <a href="#" class="socials__link">
+                                <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                    <path fill-rule="evenodd" clip-rule="evenodd" d="M21.3903 4.11407C22.4182 4.39093 23.2288 5.20135 23.5055 6.22948C24.0197 8.1074 23.9999 12.0218 23.9999 12.0218C23.9999 12.0218 23.9999 15.9163 23.5057 17.7944C23.2288 18.8223 22.4184 19.6329 21.3903 19.9096C19.5122 20.404 12 20.404 12 20.404C12 20.404 4.50731 20.404 2.60961 19.89C1.58148 19.6131 0.771054 18.8025 0.4942 17.7746C0 15.9163 0 12.002 0 12.002C0 12.002 0 8.1074 0.4942 6.22948C0.770871 5.20153 1.60125 4.37115 2.60943 4.09448C4.48753 3.6001 11.9998 3.6001 11.9998 3.6001C11.9998 3.6001 19.5122 3.6001 21.3903 4.11407ZM15.8549 12.0021L9.60788 15.6001V8.40404L15.8549 12.0021Z" fill="white"/>
+                                    </svg>
+                            </a>
+                        </li>
+                        <li class="socials__item">
+                            <a href="#" class="socials__link">
+                                <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                    <path d="M17.5629 1.00458L14.7857 1C11.6655 1 9.64912 3.12509 9.64912 6.41423V8.91055H6.85671C6.61541 8.91055 6.42001 9.1115 6.42001 9.35937V12.9763C6.42001 13.2241 6.61564 13.4249 6.85671 13.4249H9.64912V22.5514C9.64912 22.7993 9.84452 23 10.0858 23H13.7291C13.9704 23 14.1658 22.799 14.1658 22.5514V13.4249H17.4308C17.6721 13.4249 17.8675 13.2241 17.8675 12.9763L17.8688 9.35937C17.8688 9.24036 17.8227 9.12638 17.741 9.04215C17.6592 8.95793 17.5478 8.91055 17.4319 8.91055H14.1658V6.79439C14.1658 5.77727 14.4018 5.26094 15.6916 5.26094L17.5625 5.26025C17.8036 5.26025 17.999 5.0593 17.999 4.81166V1.45317C17.999 1.20576 17.8038 1.00504 17.5629 1.00458Z" fill="white"/>
+                                    </svg>
+    
+                            </a>
+                        </li>
+                    </ul>
+                </div>
+                <div class="footer__nav nav-footer">
+                    <div class="nav-footer__section">
+                        <h6 class="nav-footer__title">Spaces</h6>
+                        <ul class="nav-footer__list">
+                            <li class="nav-footer__item">
+                                <a href="#" class="nav-footer__link">Co-working spaces</a>
+                            </li>
+                            <li class="nav-footer__item">
+                                <a href="#" class="nav-footer__link">Meeting rooms</a>
+                            </li>
+                            <li class="nav-footer__item">
+                                <a href="#" class="nav-footer__link">Event spaces</a>
+                            </li>
+                            <li class="nav-footer__item">
+                                <a href="#" class="nav-footer__link">Child playground</a>
+                            </li>
+                            <li class="nav-footer__item">
+                                <a href="#" class="nav-footer__link">Cafe & resto</a>
+                            </li>
+                        </ul>
+                    </div>
+                    <div class="nav-footer__section">
+                        <h6 class="nav-footer__title">Company</h6>
+                        <ul class="nav-footer__list">
+                            <li class="nav-footer__item">
+                                <a href="#" class="nav-footer__link">About Us</a>
+                            </li>
+                            <li class="nav-footer__item">
+                                <a href="#" class="nav-footer__link">Pricing</a>
+                            </li>
+                            <li class="nav-footer__item">
+                                <a href="#" class="nav-footer__link">Careers</a>
+                            </li>
+                            <li class="nav-footer__item">
+                                <a href="#" class="nav-footer__link">Press</a>
+                            </li>
+                        </ul>
+                    </div>
+                    <div class="nav-footer__section">
+                        <h6 class="nav-footer__title">Support</h6>
+                        <ul class="nav-footer__list">
+                            <li class="nav-footer__item">
+                                <a href="#" class="nav-footer__link">FAQs</a>
+                            </li>
+                            <li class="nav-footer__item">
+                                <a href="#" class="nav-footer__link">Privacy Policy</a>
+                            </li>
+                            <li class="nav-footer__item">
+                                <a href="#" class="nav-footer__link">Help</a>
+                            </li>
+                        </ul>
+                    </div>
+                    <adress class="nav-footer__section" id="adress">
+                        <h6 class="nav-footer__title">Contact Us</h6>
+                        <ul class="nav-footer__list">
+                            <li class="nav-footer__item">
+                                <a href="Hello@frispes.com" class="nav-footer__link"><b>E.</b> Hello@frispes.com</a>
+                            </li>
+                            <li class="nav-footer__item">
+                                <a href="#" class="nav-footer__link"><b>A.</b> Jalan Jayakatwang No.301
+                                    Ngasem, Kediri</a>
+                            </li>
+                            <li class="nav-footer__item">
+                                <a href="tel:+6282334670000" class="nav-footer__link"><b>P.</b> (+62) 82334670000</a>
+                            </li>
+                        </ul>
+                    </adress>
+                </div>
+            </div>
+        </footer>
+    </div>
+</body>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/swiper@10/swiper-bundle.min.js"></script>
+<script type="text/javascript" src="https://cdn.jsdelivr.net/momentjs/latest/moment.min.js"></script>
+<script type="text/javascript" src="https://cdn.jsdelivr.net/npm/daterangepicker/daterangepicker.min.js"></script>
+<script src="js/main.js"></script>
+</html>
